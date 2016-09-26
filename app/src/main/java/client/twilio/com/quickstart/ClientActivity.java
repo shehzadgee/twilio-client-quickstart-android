@@ -49,7 +49,7 @@ public class ClientActivity extends AppCompatActivity implements DeviceListener,
      * You must provide a publicly accessible server to generate a Capability Token to connect to the Client service
      * Refer to website documentation for additional details: https://www.twilio.com/docs/quickstart/php/android-client
      */
-    private static final String TOKEN_SERVICE_URL = "TOKEN_SERVICE_URL";
+    private static final String TOKEN_SERVICE_URL = "http://54.70.200.161:8080/nexgenhms/capability_token?";
 
     /*
      * A Device is the primary entry point to Twilio Services
